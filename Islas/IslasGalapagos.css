@@ -62,10 +62,36 @@
 #izq > p{
     text-decoration: underline;
     font-style:italic;
+    
 }
 #der{
     width: 30%;
     height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#fotos{
+    width: 50%;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.imagen{
+    width: 70%;
+    margin-left: 15%;
+}
+#formulario{
+    align-items: center;
+    text-align:center;
+    width: 70%;
+    height:auto;
+    border:1px black solid;
+    padding:5px;
+}
+#formulario input[type="text"]{
+    width: 45%;
 }
 @keyframes cambioColorYSeparacion {
     from {
