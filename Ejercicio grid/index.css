@@ -70,6 +70,7 @@ h1{
     }
 }
 .seis{
+    position: relative;
     background-color: white;
     text-align: center;
 }
@@ -77,4 +78,25 @@ h1{
     p{
         display:none;
     }
+    
+    .C{
+        opacity: 100;
+    }   
+    .A{
+        opacity: 100;
+
+        }
+}
+.seis p{
+margin-top:90%
+}
+.C, .A{
+    position:absolute;
+    top: 40%;
+    left: 45%;
+    translate: -40% -45%;
+    transition: all 1s ease-in-out;
+}
+.A{
+    opacity: 0;
 }
